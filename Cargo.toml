@@ -1,0 +1,12 @@
+[package]
+name = "swayws-rs"
+version = "0.1.0"
+edition = "2024"
+
+[lints.clippy]
+pedantic        = { level = "deny", priority = -1 }
+nursery         = { level = "deny", priority = -1 }
+unwrap_used     = "deny"
+
+[dependencies]
+swayipc = "4.0.0"
