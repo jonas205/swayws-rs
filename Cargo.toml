@@ -1,5 +1,5 @@
 [package]
-name = "swayws-rs"
+name = "swayws"
 version = "0.1.0"
 edition = "2024"
 
